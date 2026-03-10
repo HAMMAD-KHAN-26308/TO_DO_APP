@@ -1,0 +1,12 @@
+[build]
+  # The command to build your project
+  command = "npm run build"
+  
+  # The directory that Vite outputs to (default is dist)
+  publish = "dist"
+
+# This section fixes the "404 on refresh" issue for SPAs
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
