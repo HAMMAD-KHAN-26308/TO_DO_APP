@@ -68,7 +68,7 @@ function App() {
   return (
     <>
       <div className="card">
-        <h1>TO DO LIST</h1>
+        <h1>TO DO LIST APP</h1>
         <div className="card_body">
           <div className="input">
             <input
